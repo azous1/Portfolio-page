@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f6f8f5;
+  color: #172b23;
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: min(92%, 64rem);
+  margin-inline: auto;
+}
+
+.site-header {
+  border-bottom: 1px solid #cdd8cf;
+}
+
+.navigation,
+.navigation ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1.25rem;
+}
+
+.navigation {
+  justify-content: space-between;
+  padding-block: 1rem;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: #14543d;
+  text-underline-offset: 0.2em;
+}
+
+a:focus-visible {
+  outline: 2px solid #14543d;
+  outline-offset: 4px;
+}
+
+.brand {
+  font-weight: 700;
+}
+
+main section {
+  padding-block: 2rem;
+}
+
+.intro {
+  padding-block: clamp(3rem, 9vw, 6rem);
+}
+
+h1, h2, h3 {
+  margin: 0 0 0.5em;
+  line-height: 1.15;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 8vw, 5rem);
+}
+
+p {
+  max-width: 60ch;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.65rem 1rem;
+  border-radius: 0.5rem;
+  background: #14543d;
+  color: white;
+}
+
+.project {
+  padding: 1.25rem;
+  border: 1px solid #cdd8cf;
+  border-radius: 0.75rem;
+  background: white;
+}
+
+.site-footer {
+  padding-block: 1rem;
+  border-top: 1px solid #cdd8cf;
+}
