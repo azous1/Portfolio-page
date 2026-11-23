@@ -3,15 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Portfolio von Sefin Azou mit Projekten und technischen Kenntnissen aus dem BFH-Studium.">
-  <title>Sefin Azou | Portfolio für Digital Business &amp; AI</title>
+  <meta name="description" content="Sefin Azou studiert Digital Business & AI an der BFH. Entdecke seine Projekte und technischen Kenntnisse.">
+  <title>Sefin Azou | Digital Business &amp; AI Portfolio</title>
   <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
   <header class="site-header">
     <nav class="container navigation" aria-label="Hauptnavigation">
       <a class="brand" href="#start">Sefin Azou</a>
+
       <ul>
+        <li><a href="#ueber-mich">Über mich</a></li>
         <li><a href="#projekte">Projekte</a></li>
         <li><a href="#kenntnisse">Kenntnisse</a></li>
       </ul>
@@ -19,25 +22,80 @@
   </header>
 
   <main class="container" id="start">
-    <section class="intro" aria-labelledby="name">
-      <h1 id="name">Sefin Azou</h1>
-      <p>Ich studiere Digital Business &amp; AI an der Berner Fachhochschule. Hier zeige ich meine Projekte und welche Technologien ich dabei einsetze.</p>
-      <a class="button" href="#projekte">Projekte ansehen</a>
+    <section class="intro" aria-labelledby="intro-title">
+      <p class="intro-label">Digital Business &amp; AI · BFH</p>
+
+      <h1 id="intro-title">
+        Digitale Ideen.<br>
+        Durchdacht umgesetzt.
+      </h1>
+
+      <p class="intro-description">
+        Ich bin Sefin, Student aus Biel/Bienne. Mich interessiert,
+        wie aus einer Idee eine digitale Lösung entsteht, die
+        Menschen im Alltag unterstützt.
+      </p>
+
+      <a class="button" href="#projekte">Meine Projekte entdecken</a>
+    </section>
+
+    <section class="about" aria-labelledby="ueber-mich">
+      <h2 id="ueber-mich">Über mich</h2>
+
+      <div class="about-content">
+        <p>
+          An der Berner Fachhochschule studiere ich Digital Business
+          &amp; AI. Dabei beschäftige ich mich mit dem Zusammenspiel
+          von Wirtschaft, Technologie und den Bedürfnissen der Menschen,
+          die eine Anwendung nutzen.
+        </p>
+
+        <p>
+          Im Teamprojekt GrenzGrün arbeite ich an Datenquellen,
+          Schnittstellen, Mockups und der Zielarchitektur.
+          Als Scrum Master unterstütze ich ausserdem die
+          Zusammenarbeit im Team.
+        </p>
+
+        <p>
+          Auf dieser Seite dokumentiere ich meine Projekte,
+          meinen eigenen Beitrag und die Technologien,
+          mit denen ich arbeite.
+        </p>
+      </div>
     </section>
 
     <section aria-labelledby="projekte">
       <h2 id="projekte">Projekte</h2>
+
       <article class="project">
         <h3>GrenzGrün</h3>
-        <p>Im BFH-Teamprojekt entwickeln wir einen Webprototyp, der Einsatzrouten und potenziell priorisierbare Ampeln visualisiert.</p>
-        <p>Mein Beitrag umfasst die Arbeit an Datenquellen und Schnittstellen sowie am Mockup und an der Zielarchitektur.</p>
+
+        <p>
+          Ein BFH-Teamprojekt zur Visualisierung von Einsatzrouten
+          und potenziell priorisierbaren Ampeln.
+        </p>
+
+        <p>
+          Der Webprototyp veranschaulicht die Idee anhand einer
+          Simulation. Die Priorisierbarkeit der Ampeln wird
+          im Prototyp simuliert.
+        </p>
+
+        <p>
+          <strong>Mein Beitrag</strong><br>
+          Datenquellen und Schnittstellen, Mockup, Zielarchitektur
+          und die Rolle als Scrum Master.
+        </p>
       </article>
     </section>
 
     <section aria-labelledby="kenntnisse">
       <h2 id="kenntnisse">Technische Kenntnisse</h2>
-      <ul>
-        <li>HTML und CSS für Struktur und Gestaltung von Webseiten</li>
+
+      <ul class="skills-list">
+        <li>HTML für die Struktur dieser Website</li>
+        <li>CSS für Gestaltung und flexible Layouts</li>
         <li>Python und SQL aus dem Studium</li>
       </ul>
     </section>
@@ -45,6 +103,7 @@
 
   <footer class="container site-footer">
     <p>Sefin Azou · Biel/Bienne</p>
+    <a href="#start">Zurück nach oben</a>
   </footer>
 </body>
 </html>
