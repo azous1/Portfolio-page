@@ -68,25 +68,80 @@
     <section aria-labelledby="projekte">
       <h2 id="projekte">Projekte</h2>
 
-      <article class="project">
-        <h3>GrenzGrün</h3>
+      <article class="project" aria-labelledby="grenzgruen-title">
+        <h3 id="grenzgruen-title">GrenzGrün</h3>
 
         <p>
           Ein BFH-Teamprojekt zur Visualisierung von Einsatzrouten
-          und potenziell priorisierbaren Ampeln.
+          und potenziell priorisierbaren Ampeln in Bern.
         </p>
 
-        <p>
-          Der Webprototyp veranschaulicht die Idee anhand einer
-          Simulation. Die Priorisierbarkeit der Ampeln wird
-          im Prototyp simuliert.
-        </p>
+        <figure class="project-figure">
+          <img
+            src="./images/grenzgruen.png"
+            alt="GrenzGrün-Prototyp mit einer grünen Einsatzroute, einem Fahrzeug und Ampelmarkierungen auf einer Karte von Bern."
+            width="1917"
+            height="930"
+            loading="lazy"
+          >
+          <figcaption>
+            Einsatzkarte des Prototyps. Basiskarte und kleine
+            Ampelmarkierungen stammen aus OpenStreetMap.
+            Die Ampelpriorisierung wird simuliert.
+          </figcaption>
+        </figure>
 
-        <p>
-          <strong>Mein Beitrag</strong><br>
-          Datenquellen und Schnittstellen, Mockup, Zielarchitektur
-          und die Rolle als Scrum Master.
-        </p>
+        <div class="project-details">
+          <section aria-labelledby="grenzgruen-idee">
+            <h4 id="grenzgruen-idee">Die Idee</h4>
+            <p>
+              Einsatzfahrzeuge können an Kreuzungen Zeit verlieren.
+              GrenzGrün untersucht, wie eine digitale Anwendung
+              Einsatzrouten und eine mögliche Ampelpriorisierung
+              verständlich darstellen kann.
+            </p>
+          </section>
+
+          <section aria-labelledby="grenzgruen-prototyp">
+            <h4 id="grenzgruen-prototyp">Der Prototyp</h4>
+            <p>
+              Die Webanwendung zeigt eine Route, ein Einsatzfahrzeug
+              und Ampelmarkierungen auf einer interaktiven Karte.
+              Szenarien veranschaulichen unter anderem Verzögerungen
+              und spontane Routenänderungen.
+              Der Verkehrsrechner und die Priorisierung werden
+              simuliert.
+            </p>
+          </section>
+
+          <section aria-labelledby="grenzgruen-beitrag">
+            <h4 id="grenzgruen-beitrag">Mein Beitrag</h4>
+            <p>
+              Ich beschäftige mich mit den benötigten Datenquellen
+              und Schnittstellen und arbeite am Mockup sowie an der
+              Zielarchitektur. Als Scrum Master unterstütze ich
+              die Planung und Zusammenarbeit im Team.
+            </p>
+          </section>
+
+          <section aria-labelledby="grenzgruen-erkenntnis">
+            <h4 id="grenzgruen-erkenntnis">Meine Erkenntnis</h4>
+            <p>
+              Bei der Konzeption wurde deutlich, wie wichtig es ist,
+              verfügbare Daten und offene Schnittstellenfragen früh
+              zu klären. Eine echte Anbindung an den Verkehrsrechner
+              der Stadt Bern erfordert weitere technische und
+              organisatorische Abklärungen.
+            </p>
+          </section>
+        </div>
+
+        <a
+          class="button"
+          href="https://grenzgruen-dynamic.vercel.app/"
+        >
+          GrenzGrün-Prototyp öffnen
+        </a>
       </article>
     </section>
 

@@ -246,4 +246,42 @@ main > section + section {
   html {
     scroll-behavior: auto;
   }
+}.project-figure {
+  margin: 2rem 0;
+}
+
+.project-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: 0.6rem;
+}
+
+.project-figure figcaption {
+  margin-top: 0.75rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.project-details {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.project-details section {
+  min-width: 0;
+}
+
+.project-details h4 {
+  margin: 0 0 0.75rem;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 48rem) {
+  .project-details {
+    grid-template-columns: 1fr;
+  }
 }
